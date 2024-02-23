@@ -23,12 +23,13 @@ function Header(props) {
           </div>
           <div className="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
             <Link to="/home" className="p-2 lg:px-4 md:mx-2 text-white rounded bg-lime-600">{props.home}</Link>
-            <Link to="/contactus" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.notes}</Link>
-            <Link to="/footer" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.blogs}</Link>
-            <Link to="/founder" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.courses}</Link>
+            <Link to="/notes" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.notes}</Link>
+            <Link to="/blogs" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.blogs}</Link>
+            <Link to="/courses" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.courses}</Link>
+            <Link to="/jobs" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.jobs}</Link>
             <Link to="/about" className="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">{props.about}</Link>
-            <Link to="#" className="p-2 lg:px-4 md:mx-2 text-lime-600 text-center border border-transparent rounded transition-colors duration-300">Login</Link>
-            <Link to="#" className="p-2 lg:px-4 md:mx-2 text-lime-600 text-center border border-solid border-lime-600 rounded hover:bg-lime-600 hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1">Signup</Link>
+            <Link to="/login" className="p-2 lg:px-4 md:mx-2 text-lime-600 text-center border border-transparent rounded transition-colors duration-300">Login</Link>
+            <Link to="/signup" className="p-2 lg:px-4 md:mx-2 text-lime-600 text-center border border-solid border-lime-600 rounded hover:bg-lime-600 hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1">Signup</Link>
           </div>
         </div>
       </nav>

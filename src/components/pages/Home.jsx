@@ -1,8 +1,9 @@
 import React from 'react';
 import '../styles/HomeStyle.css'
-import Founder from '../common/Founder';
 
 import Typed from 'typed.js';
+import Founder from '../common/Founder';
+import ContactUs from '../common/ContactUs';
 
 function Home() {
 
@@ -50,6 +51,9 @@ function Home() {
 
       {/* founder component */}
       <Founder></Founder>
+
+      {/* contact  */}
+      <ContactUs></ContactUs>
     </>
   );
 }
