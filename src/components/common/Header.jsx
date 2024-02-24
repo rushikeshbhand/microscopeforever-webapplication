@@ -10,7 +10,7 @@ function Header(props) {
   };
 
   return (
-    <div className="header-2 drop-shadow-lg">
+    <div className="header-2 drop-shadow-lg sticky top-0 z-50">
       <nav className="bg-white py-2 md:py-4">
         <div className="container px-4 mx-auto md:flex md:items-center">
           <div className="flex justify-between items-center">

@@ -5,28 +5,28 @@ export default function Signup() {
     return (
         <div className="min-h-screen flex flex-col">
             <div className="containermax-w-sm mx-auto flex-1 flex flex-col items-center justify-center px-2">
-                <div className="bg-lime-50 px-10 py-8 rounded shadow-md text-black w-full">
+                <div className="bg-lime-200 px-10 py-8 rounded shadow-md text-black w-full">
                     <h1 className="mb-8 text-3xl text-center">Sign up</h1>
                     <input
                         type="text"
-                        className="block border border-grey-light w-full p-3 rounded mb-4"
+                        className="block border border-grey-light w-80 p-3 rounded mb-4"
                         name="fullname"
                         placeholder="Full Name" />
 
                     <input
                         type="text"
-                        className="block border border-grey-light w-full p-3 rounded mb-4"
+                        className="block border border-grey-light w-80 p-3 rounded mb-4"
                         name="email"
                         placeholder="Email" />
 
                     <input
                         type="password"
-                        className="block border border-grey-light w-full p-3 rounded mb-4"
+                        className="block border border-grey-light w-80 p-3 rounded mb-4"
                         name="password"
                         placeholder="Password" />
                     <input
                         type="password"
-                        className="block border border-grey-light w-full p-3 rounded mb-4"
+                        className="block border border-grey-light w-80 p-3 rounded mb-4"
                         name="confirm_password"
                         placeholder="Confirm Password" />
 
